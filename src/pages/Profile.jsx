@@ -48,6 +48,7 @@ function Profile() {
     }
 
     const onChange = (e) => {
+      console.log(e.target.id)
       setFormData((prevState) => ({
         ...prevState,
         [e.target.id] : e.target.value,

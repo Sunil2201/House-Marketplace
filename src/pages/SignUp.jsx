@@ -10,14 +10,17 @@ import OAuth from '../components/OAuth'
 
 function SignUp() {
     const [showPassword, setShowPassword] = useState(false)
-    const [formData, setFormData] = useState({
-      name: '',
-      email: '',
-      password: ''
-    })
+    const [formData, setFormData] = useState(
+      {
+        name: '',
+        email: '',
+        password: ''
+      }
+    )
     const {name, email, password} = formData
 
     const onChange = (e) => {
+      console.log(e.target.id)
       setFormData((prevState) => ({
         ...prevState,
         [e.target.id] : e.target.value,
