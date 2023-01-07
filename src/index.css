@@ -79,14 +79,6 @@ button {
   margin-bottom: 12%;
 }
 
-.pageContainer{
-  overflow-y: scroll;
-}
-
-.pageContainer::-webkit-scrollbar{
-  display: none;
-}
-
 .pageContainer,
 .offers,
 .profile,
