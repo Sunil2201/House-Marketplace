@@ -395,6 +395,7 @@ button {
 .categoryListing {
   display: flex;
   justify-content: space-between;
+  margin-right: 22%;
   align-items: center;
   margin-bottom: 1rem;
   position: relative;
@@ -818,7 +819,7 @@ button {
     padding-left: 0rem !important;
   }
   .actions{
-    margin-bottom: 33%;
+    margin-bottom: 45%;
   }
   .categoryListingInfoText{
     padding-left: 0.2rem;
