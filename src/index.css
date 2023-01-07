@@ -214,7 +214,7 @@ button {
 
 .signInBar,
 .signUpBar {
-  margin-top: 3rem;
+  margin-top: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -270,7 +270,7 @@ button {
   justify-content: center;
   align-items: center;
   padding: 0.5rem;
-  margin: 1.5rem;
+  margin: 1rem;
   width: 3rem;
   height: 3rem;
   background-color: #ffffff;
